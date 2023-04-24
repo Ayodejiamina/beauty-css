@@ -1,0 +1,362 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+.nav i {
+    font-size: 18px;
+    padding-right: 20px;
+}
+.nav p {
+    font-size: 20px;
+}
+a:hover{
+    color: rgb(245, 199, 48);
+}
+.first{
+    background-color: black;
+    color: white;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.text{
+    width: 50%;
+    padding-left: 5px;
+}
+.text .p {
+    color: rgb(245, 199, 48);
+    padding: 20px;
+}
+.text h1{
+    font-size: 50px;
+    padding: 20px;
+}
+.text .p2{
+    opacity: 0.5;
+    padding: 20px;
+}
+.text button{
+    background-color: rgb(245, 199, 48);
+    border-radius: 20px;
+    padding: 10px;
+}
+.first-img{
+    width: 50%;
+}
+.first-img img{
+  height: 400px;
+  width: 100%;
+}
+.second{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    line-height: 30px;
+}
+.icons{
+    width: 20%;
+}
+.icons i{
+    padding: 30px;
+    background-color: rgb(245, 199, 48);
+    border-radius: 50%;
+}
+.third{
+    background-color: black;
+    color: white;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.para2{
+    color: rgb(245, 199, 48);
+    padding: 10px;
+}
+.header3{
+    letter-spacing: 4px;
+    padding: 10px;
+}
+.fourth{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    line-height: 30px;  
+}
+.sec-text{
+        width: 50%;
+        padding-left: 5px;
+        line-height: 70px;
+        margin-left: 10px;
+}
+.second-image{
+    width: 50%;  
+}
+.second-image img{
+    width: 100%;
+    height: 400px;  
+}
+.arrow i{
+    padding: 20px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.sec-text .p3 {
+    color: rgb(245, 199, 48);
+}
+.sec-text h3{
+    font-size: 50px; 
+}
+.sec-text .p4{
+    opacity: 0.7;
+}
+.fifth{
+    background-color: black;
+    color: white;
+}
+.fifth h2{
+    text-align: center;
+}
+.fifth-flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    line-height: 30px;  
+    flex-wrap: wrap;
+}
+.services{
+    width: 48%;
+    margin: 10px;
+}
+.services img{
+    width: 100%;
+    height: 300px;
+}
+.service{
+width: 48%;
+border-bottom: 2px solid  rgb(245, 199, 48);
+margin: 10px;
+}
+.serv{
+    width: 48%; 
+    margin: 10px;
+}
+.serv .first-but{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px;
+   background-color: black;
+   color: white;
+}
+.serv .second-but{
+    border: 1px solid  rgb(245, 199, 48);
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(245, 199, 48) ;
+}
+.opac{
+    background-color: rgba(170, 167, 167, 0.192);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.sixth{
+   background-color: black;
+   padding-top: 70px;
+}
+
+.lined{
+    width:60%;
+    padding-top: 30px;
+}
+.line{
+    width:30%;
+}
+.lined b{
+    color: rgb(245, 199, 48);
+
+}
+.lined h2{
+    font-size: 50px;
+}
+.inp{
+    padding: 7px;
+    width: 50%;
+    outline: none;
+}
+.subs{
+    width: fit-content;
+    background-color:rgb(245, 199, 48) ;
+    padding: 7px;
+    /* position: absolute;
+    left: 25%; */
+}
+.footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.foot{
+    width: 25%;
+    line-height: 30px;
+}
+.foot i {
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+}
+@media(max-width:768px){
+  .nav{
+    display: flex;
+    flex-wrap: wrap;
+   line-height: 30px;
+   justify-content: center;
+  } 
+  ul li a{
+    padding: 5px;
+  } 
+  .first{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .text{
+    width: 100%;
+    margin: 0;
+  }
+  .text h1{
+   font-size: 30px;
+  }
+  .first-img{
+    width: 100%;
+    padding-top: 10px;
+    margin: 0;
+  }
+  .second{
+    display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+    }
+    .icons{
+        width: 50%;
+    }
+    .sec{
+        margin-top: 10px;
+        text-align: center;
+    }
+    .third{
+        display: flex;
+         flex-wrap: wrap;
+         justify-content: center;
+        }
+        .fourth{
+            display: flex;
+             flex-wrap: wrap;
+             justify-content: center;
+            }
+            .sec-text{
+                width: 100%;
+                text-align: center;
+            }
+            .sec-text h3{
+                font-size: 30px;
+            }
+            .second-image{
+                width: 100%;
+            }
+            .fifth-flex{
+                display: flex;
+                 flex-wrap: wrap;
+                 justify-content: center;
+                }
+                .fifth{
+                    padding-top:30px ;
+                }
+                .services{
+                    width: 80%;
+                    padding-top: 20px;
+                }
+                .service{
+                    width: 80%;
+                }
+                .serv{
+                    width: 80%;
+                }
+                .footer{
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center; 
+                }
+                .foot{
+                    width: 50%;
+                    padding-top: 30px;
+                    text-align: center;
+                }
+                .opac{
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;  
+                    margin-left: 30px;
+                    margin-right: 30px;  
+                }
+                .lined{
+                    width: 80%;
+                }
+                .lined h2{
+                    font-size: 30px;
+                    line-height: 50px;
+                }
+                .line{
+                    width: 90%;
+                    padding-top: 20px;
+                }
+                .inp{
+                    width: 100%;
+                }
+                /* .subs{
+                    position: absolute;
+                    left: 60%;
+                } */
+
+}
+/* @media(max-width:1024px){
+    .fifth-flex{
+        display: flex;
+         flex-wrap: wrap;
+         justify-content: center;
+        }
+        .fifth{
+            padding-top:30px ;
+        }
+        .services{
+            width: 50%;
+            padding-top: 20px;
+        }
+        .service{
+            width: 50%;
+        }
+        .serv{
+            width: 50%;
+        }
+} */
