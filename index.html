@@ -10,9 +10,9 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="nav">
+    <div class="nav" id="genNav">
         <p>Miracles</p>
-         <ul>
+         <ul class="top">
             <li>
                 <a href="/">Home</a>
               </li>
@@ -31,27 +31,33 @@
               <li>
                 <a href="#cont">Contact</a>
               </li>
+
          </ul>
-          <div>
+          <!-- <div class="top">
             <i class="fas fa-shopping-cart"></i>
             <i class="fas fa-user"></i>
-        </div>
+        </div> -->
+        <ul>
+          <li>
+            <a href="javascript:void(0);" class="icon" onclick="bar()"><i class="fas fa-bars"></i></a>
+          </li>
+        </ul>
     </div>
-    <div class="first">
+    <div class="first" id="/">
        <div class="text">
          <p class="p">Introducing Miracle</p>
          <h1>Beauty has a purpose and the purpose is you</h1>
          <p class="p2">Made with natural ingredients,with modern technologies. Mirracles has long be trusted by many woman along the whole world. </p>
            <div>
-            <button>Start Shopping</button>
-            <i class="fas fa-play-circle"></i> <span>Watch Video</span>
+            <button  style="margin-right: 20px;">Start Shopping</button>
+            <i class="fas fa-play-circle" ></i> <span>Watch Video</span>
            </div>
        </div>
        <div class="first-img">
          <img src="images/prod3.avif" alt="image1">
        </div>
     </div>
-      <div class="sec">
+      <div class="sec" id="feau">
         <p class="para2">Why choose us</p>
         <h3 class="header3">Feautures that we provide</h3>
      <div class="second">
@@ -77,7 +83,7 @@
           </div>
      </div>
     </div>
-    <div class="third">
+    <div class="third" id="abt">
         <div class="first-img">
           <img src="images/skincare3.avif" alt="image2">
         </div>
@@ -91,7 +97,7 @@
               </div>
           </div>
      </div>
-     <div class="fourth">
+     <div class="fourth" id="pro">
         <div class="sec-text">
           <p class="p3">Various of product</p>
           <h3>The beauty of unity in variety product</h3>
@@ -105,7 +111,7 @@
           <img src="images/facial2.avif" alt="second">
          </div>
         </div>
-        <div class="fifth">
+        <div class="fifth" id="ser">
             <h2>Our Services</h2>
           <div class="fifth-flex">
                <div class="services">
@@ -135,7 +141,7 @@
                </div>
           </div>
         </div>
-        <div class="sixth">
+        <div class="sixth" id="cont">
             <div class="opac">
             <div class="lined">
                 <b class="">Discount up to 60%</b>
@@ -177,5 +183,18 @@
               </div>
         </div>
     
+<script>
+function bar(){
+let genNav = document.getElementById('genNav')
+if(genNav.className === "nav"){
+  genNav.className += "responsive"
+}else{
+  genNav.className === "nav"
+}
+}
+
+</script>
+
+
 </body>
 </html>

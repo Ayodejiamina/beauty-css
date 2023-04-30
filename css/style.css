@@ -9,6 +9,9 @@
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
 }
 ul{
     list-style-type: none;
@@ -18,6 +21,9 @@ ul li a{
     text-decoration: none;
     color: white;
     padding: 20px;
+}
+a.icon i{
+    display: none;
 }
 .nav i {
     font-size: 18px;
@@ -142,8 +148,8 @@ a:hover{
     flex-wrap: wrap;
 }
 .services{
-    width: 48%;
-    margin: 10px;
+    width: 50%;
+    padding-right:10px;
 }
 .services img{
     width: 100%;
@@ -152,11 +158,13 @@ a:hover{
 .service{
 width: 48%;
 border-bottom: 2px solid  rgb(245, 199, 48);
-margin: 10px;
+padding-right:10px;
+padding-top: 10px;
 }
 .serv{
     width: 48%; 
-    margin: 10px;
+    padding-right:10px;
+    padding-top: 10px;
 }
 .serv .first-but{
     border: 1px solid white;
@@ -228,15 +236,38 @@ margin: 10px;
     border-radius: 50%;
 }
 @media(max-width:768px){
-  .nav{
+    .nav .top {display: none;}
+  .nav a.icon i{
+    float: right;
+    display: block;
+    color: white;
+  }
+    .nav.responsive {position: relative;}
+
+    .nav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .nav.responsive a {
+      float: none;
+      display: inline;
+      text-align: left;
+    } 
+    ul li a{
+        color: black;
+    }
+
+
+   /* .nav{
     display: flex;
     flex-wrap: wrap;
    line-height: 30px;
    justify-content: center;
-  } 
-  ul li a{
+  }  */
+  /* ul li a{
     padding: 5px;
-  } 
+  }   */
   .first{
     display: flex;
     flex-wrap: wrap;
