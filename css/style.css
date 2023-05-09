@@ -256,6 +256,7 @@ padding-top: 10px;
     } 
     ul li a{
         color: black;
+        padding: 5px;
     }
 
 
@@ -266,7 +267,7 @@ padding-top: 10px;
    justify-content: center;
   }  */
   /* ul li a{
-    padding: 5px;
+
   }   */
   .first{
     display: flex;
@@ -325,14 +326,14 @@ padding-top: 10px;
                     padding-top:30px ;
                 }
                 .services{
-                    width: 80%;
+                    width: 90%;
                     padding-top: 20px;
                 }
                 .service{
-                    width: 80%;
+                    width: 90%;
                 }
                 .serv{
-                    width: 80%;
+                    width: 90%;
                 }
                 .footer{
                     display: flex;
